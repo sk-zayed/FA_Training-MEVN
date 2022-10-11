@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="fa-mevn-assignment_01">
+    <title>Q-02</title>
+    <style>
+        span{
+            width: 40%;
+            background-color: aqua;
+            display: inline;
+            /* display: block; */
+            /* display: inline-block; */
+        }
+        .text-bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </section>
+        <hr>
+        <section>
+            <p class="text-bold">Q - How do the elements appear? Does the width have any effect? Why / Why not?</p>
+            <p>Elements appear side-by-side. As span itself is an inline tag, widht does not have any effect.</p>
+            <p class="text-bold">Q - Set display to inline. Does it cause any change? Why / Why not?</p>
+            <p>No. It deos not cause any because bydefault span is an inline tag.</p>
+            <p class="text-bold">Q - Change display to block. What change does it cause?</p>
+            <p>Once we apply block property span (bydefault inline) acts as a block element and takes up the entire width (if width not specified) by blocking every other element to be in same row.</p>
+            <p class="text-bold">Q - Set display to inline-block. What change does it cause?</p>
+            <p>Elements appear side-by-side with given width.</p>
+            <p class="text-bold">Conclusion:</p>
+            <p>inline: Elements are placed side-by-side but we don't have control over the width.<br>block: Takes up the entire width and blocks everything else from being on the same line. While using block property we can specify the width.<br>inline-block: In this case we can change width while letting elements to be side-by-side.</p>
+        </section>
+    </main>
+</body>
+
+</html>
